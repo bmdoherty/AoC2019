@@ -6,9 +6,6 @@ const processInput = (str) => {
         .map((v) => Number(v));
 };
 
-const fuelForWeightReducer = (sum, x) => sum + fuelForWeight(x)
-
-const totalFuelForWeightReducer = (sum, x) => sum + totalFuelForWeight(x)
 
 const fuelForWeight = (x) => {
     return Math.floor(x / 3) - 2
@@ -17,7 +14,7 @@ const fuelForWeight = (x) => {
 const f1 = (input) => {
     let massArray = processInput(input)
 
-    return massArray.reduce(fuelForWeightReducer, 0)
+    return massArray.reduce((sum, x) => sum + fuelForWeight(x), 0)
 };
 
 const totalFuelForWeight = (x) => {
@@ -35,7 +32,7 @@ const totalFuelForWeight = (x) => {
 const f2 = (input) => {
     let massArray = processInput(input)
 
-    return massArray.reduce(totalFuelForWeightReducer, 0)
+    return massArray.reduce((sum, x) => sum + totalFuelForWeight(x), 0)
 };
 
 

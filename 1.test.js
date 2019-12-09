@@ -50,7 +50,7 @@ describe("Day 1 part 2", () => {
         await readfile();
     });
 
-    it("part 1", async () => {
+    it("part 2", async () => {
         expect(f2(data1)).toEqual(5115436);
     });
          

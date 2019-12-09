@@ -1,0 +1,38 @@
+{
+    "name": "2018-advent-of-code",
+    "version": "1.0.0",
+    "description": "advent of code 2017 in js",
+    "main": "1.js",
+    "scripts": {
+        "test": "jest -o"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bmdoherty/AoC2018.git"
+    },
+    "author": "bmdoherty",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bmdoherty/AoC2018/issues"
+    },
+    "homepage": "https://github.com/bmdoherty/AoC2018#readme",
+    "devDependencies": {
+        "@babel/core": "^7.7.4",
+        "@babel/preset-env": "^7.7.4",
+        "babel-eslint": "^10.0.3",
+        "babel-loader": "^8.0.6",
+        "babel-preset-env": "^1.7.0",
+        "eslint": "^6.7.2",
+        "eslint-config-airbnb": "^18.0.1",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-jsx-a11y": "^6.1.2",
+        "eslint-plugin-react": "^7.11.1",
+        "eslint-plugin-react-hooks": "^2.3.0",
+        "jest": "^24.9.0",
+        "prettier": "^1.19.1",
+        "webpack": "^4.41.2"
+    },
+    "dependencies": {
+        "@types/jest": "^24.0.23"
+    }
+}

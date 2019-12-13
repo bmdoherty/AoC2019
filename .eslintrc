@@ -1,0 +1,31 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+    },
+    "extends": ["plugin:react/recommended", "prettier"],
+    "plugins": ["react", "prettier"],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "modules": true,
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "rules": {
+        "no-console": "off",
+        "strict": ["error", "global"],
+        "curly": "warn",
+        "no-duplicate-imports": "warn",
+        "no-unused-vars": "warn",
+        "react/prop-types": 0,
+        "react/no-unsafe": "warn",
+        "no-param-reassign": ["warn", { "props": false }],
+        "no-useless-constructor": "warn",
+        "no-dupe-class-members": "error"
+    }
+}

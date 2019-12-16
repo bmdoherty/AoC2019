@@ -89,9 +89,9 @@ describe('Day 1 part 1', () => {
         await readfile();
     });
 
-    // it('part 1', async () => {
-    //     expect(f4(data)).toEqual(6730673);
-    // });
+    it('part 1', async () => {
+        expect(f4(data)).toEqual(6730673);
+    });
 });
 
 describe('Day 1 part 2', () => {

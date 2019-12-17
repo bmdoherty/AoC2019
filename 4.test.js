@@ -1,11 +1,4 @@
 const { test, f1 } = require('./4');
-const fs = require('fs');
-const { promisify } = require('util');
-const readFileAsync = promisify(fs.readFile);
-
-async function readfile() {
-    data = await readFileAsync('./4.1.data.txt', 'utf8');
-}
 
 describe('Day 4 part 1 Examples', () => {
     it('part 1 no triple', async () => {

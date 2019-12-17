@@ -37,9 +37,6 @@ const test = (x) => {
     return digits.length == 6 && neverDescreases(digits) && includesDouble(digits);
 };
 
-// 111111 meets these criteria (double 11, never decreases).
-// 223450 does not meet these criteria (decreasing pair of digits 50).
-// 123789 does not meet these criteria (no double).
 const f1 = (min, max) => {
     let count = 0;
 
